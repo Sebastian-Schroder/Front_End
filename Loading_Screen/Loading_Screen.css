@@ -1,0 +1,91 @@
+
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 5rem ;
+    font-family: "Space Mono", Helvetica;
+    position:fixed;
+    
+
+
+}
+
+
+.container{
+    z-index: 101;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    flex-direction: column;
+}
+.loading{
+    z-index: 101;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loading .line-box{
+    padding: 2px;
+    width: 60%;
+    height: 20px;
+    border: 2px solid #046865
+}
+
+.loading .line-box .line{
+    height:20px;
+    
+    background: #21A0A0;
+    animation: loading 3s forwards cubic-bezier(0,0,0,0);
+}
+@keyframes loading{
+    0%{
+        width:0%
+    }
+    100%{
+        width:100% 
+    }
+}
+
+
+#background{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+    
+}
+
+#preloader{
+    background-color: black;
+    
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+
+    top:0;
+    left:0;
+    
+}
+#preloader_gif{
+    background-color: black;
+    background: url("loading_gif1.gif") no-repeat center center;
+    height: 100vh;
+    width: 100%;
+    position:fixed;
+    z-index: 101;
+
+    top:0;
+    left:0;
+    
+
+
+}
