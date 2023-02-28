@@ -1,0 +1,14 @@
+body {
+    background-color:black;
+    display: grid;
+    height: 100vh;
+    margin: 0px;
+    place-items: center;
+
+
+}
+h1{
+    color: white;
+    font-size: 5rem ;
+    font-family: "Space Mono", Helvetica;
+}
