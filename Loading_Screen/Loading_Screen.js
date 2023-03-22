@@ -6,12 +6,10 @@ const gif_function = async () =>{
 
     var preloader = document.getElementById("preloader");
     var preloader_gif = document.getElementById("preloader_gif");
-    var loading_bar = document.getElementsByClassName("loading");
+    var loading_bar = document.getElementById("loading_bar");
     preloader.remove();
     preloader_gif.remove();
-    while(loading_bar.length>0){
-        loading_bar[0].parentNode.removeChild(loading_bar[0]);
-    }
+    loading_bar.remove();
     
 
 }

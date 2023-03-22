@@ -8,18 +8,19 @@ h1{
     position:fixed;
     
 
-
+ 
 }
 
 
 .container{
     z-index: 101;
     width: 100%;
-    min-height: 100vh;
+    min-height: 80vh;
     display: flex;
     justify-content:end;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 300px;
 }
 .loading{
     z-index: 101;
@@ -33,13 +34,13 @@ h1{
     padding: 2px;
     width: 60%;
     height: 20px;
-    border: 2px solid #046865
+    border: 2px solid #637074
 }
 
 .loading .line-box .line{
     height:20px;
     
-    background: #21A0A0;
+    background: #212227;
     animation: loading 3s forwards cubic-bezier(0,0,0,0);
 }
 @keyframes loading{
